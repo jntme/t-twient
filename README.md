@@ -1,4 +1,4 @@
-twient
+t-twient
 ======
 
 twitterclient for the common terminal written in python
