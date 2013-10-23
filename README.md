@@ -1,7 +1,7 @@
 twient
 ======
 
-twitterclient written in python.
+twitterclient for the common terminal written in python
 
 used packages
 -------------
