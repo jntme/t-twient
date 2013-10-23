@@ -19,4 +19,4 @@ to start tweeting out of your terminal use:
 used packages
 -------------
 
-- `tweepy` you can get `tweepy` here: https://github.com/tweepy/tweepy
+- `tweepy` - you can get it here: https://github.com/tweepy/tweepy
