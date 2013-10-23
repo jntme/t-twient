@@ -60,7 +60,7 @@ if auth == False:
 if auth:
 	api = tweepy.API(auth)
 	print "successfully authentificated."
-
+	print "you are now able to tweet what you want. exit twient anytime with typing \'exit\'." 
 	while True:
 		tweet = raw_input("type in your tweet:")
 		if tweet == "exit":
