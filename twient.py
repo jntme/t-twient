@@ -61,11 +61,14 @@ if auth:
 	api = tweepy.API(auth)
 	print "successfully authentificated."
 	print "you are now able to tweet what you want. exit twient anytime with typing \'exit\'." 
-	while True:
-		tweet = raw_input("type in your tweet:")
-		if tweet == "exit":
-			break
-		elif tweet:
-			api.update_status(tweet + " #twient")
+	try:
+		while True:
+			tweet = raw_input("type in your tweet:")
+			if tweet == "exit":
+				break
+			elif tweet:
+				api.update_status(tweet + " #twient")
+	except KeyboardInterrupt:
+		print 	
 else:
 	print "couldn't authentificate you. please start twient again."
