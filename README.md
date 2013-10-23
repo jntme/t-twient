@@ -1,4 +1,8 @@
 twient
 ======
 
-Twitterclient written in Python.
+twitterclient written in python.
+
+used packages
+-------------
+- tweepy
